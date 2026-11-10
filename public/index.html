@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Manager</title>
+</head>
+<body>
+    <h1>Book Manager</h1>
+    <p>Manage your books below.</p>
+
+    <h2>Add a Book</h2>
+
+    <form id="book-form">
+        <label for="title">Book Title:</label>
+        <input type="text" id="title" required>
+
+        <br><br>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" required>
+
+        <br><br>
+
+        <button type="submit">Add Book</button>
+    </form>
+
+    <p id="message"></p>
+
+    <h2>My Books</h2>
+    <div id="books-list"></div>
+<script src="script.js"></script>
+</body>
+</html>
